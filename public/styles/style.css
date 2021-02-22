@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Regular.ttf') format('truetype'),
+       url('../fonts/OpenSans-Italic.ttf') format('truetype');
+
+}
+
+#blm-banner {
+  text-align: center;
+  background: #010101;
+  color: #f1f1f1;
+  padding: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+#blm-href {
+  color: #5eb0f7;
+  text-decoration: none;
+}
+
+body, html {
+  font-family: 'Open Sans';
+  margin: 0;
+  height: 100%;
+}

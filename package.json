@@ -1,0 +1,27 @@
+{
+  "name": "HorribleEmployeeTracker",
+  "version": "1.0.0",
+  "description": "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HorribleProgram/HorribleEmployeeTracker.git"
+  },
+  "keywords": [],
+  "author": "HorribleProgram",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HorribleProgram/HorribleEmployeeTracker/issues"
+  },
+  "homepage": "https://github.com/HorribleProgram/HorribleEmployeeTracker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

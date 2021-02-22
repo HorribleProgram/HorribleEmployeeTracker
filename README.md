@@ -8,7 +8,8 @@
 
 ### Download and Installation
 ```bash
-$ git clone https://github.com/HorribleProgram/HorribleEmployeeTracker && cd HorribleEmployeeTracker
+$ git clone https://github.com/HorribleProgram/HorribleEmployeeTracker.git
+$ cd HorribleEmployeeTracker
 $ npm init
 $ npm start
 ```

@@ -2,7 +2,7 @@ const inquirer = require('inquirer');
 const mysql = require('mysql');
 
 
-const host = "localhost";
+const host = "127.0.0.1";
 const user = "root";
 const password = "root";
 const database = "employeeDB";

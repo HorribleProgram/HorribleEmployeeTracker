@@ -1,16 +1,39 @@
-const express = require('express');
+const inquirer = require('inquirer');
+const mysql = require('mysql');
 
 
+const host = "localhost";
+const user = "root";
+const password = "root";
+const database = "employeeDB";
 
-const app = express();
-const hostname = "http://localhost"
-const port = 3000
-
-// Serve static files in public/
-app.use(express.static('public'));
-
-app.listen(port, () => {
-    console.log(`Server started at ${hostname}:${port}.`);
+const con = mysql.createConnection({
+  host: host,
+  user: user,
+  password: password,
+  database: database,
 });
 
+con.connect((err) => {
+  if (err) {
+    console.log('Problem connecting!');
+    process.exit(1);
+  }
+  console.info(`Connected at ${con.threadId}.`);
+
+  displayDatabase();
+  askQuestions();
+});
+
+function displayDatabase() {
+  // TODO
+}
+
+function askQuestions() {
+  inquirer.prompt(
+    {
+      // TODO
+    }
+  );
+}
 

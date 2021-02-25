@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/HorribleProgram/HorribleEmployeeTracker#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "inquirer": "^7.3.3",
+    "mysql": "^2.18.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
